@@ -12,7 +12,7 @@ def run_guessing_game
       if input_num == rand_num
         puts "You guessed the correct number!"
       else
-        puts "The computer guessed #{rand_num}"
+        puts "The computer guessed #{rand_num}."
       end
     end
   end
